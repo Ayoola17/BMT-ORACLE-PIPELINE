@@ -1,0 +1,8 @@
+FROM container-registry.oracle.com/database/enterprise:19.3.0.0
+
+WORKDIR /opt/oracle/oradata/
+
+RUN mkdir recovery_area
+
+
+
